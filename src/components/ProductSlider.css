@@ -1,0 +1,18 @@
+/* Add this CSS to your stylesheet */
+.slick-dots {
+    bottom: -30px; /* Adjust as needed */
+  }
+  
+  .slick-dots li button {
+    background-color: grey; /* Default dot color */
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: blue; /* Active dot color */
+  }
+  
+  /* Optional: Add transition for smoother color change */
+  .slick-dots li button {
+    transition: background-color 0.3s ease;
+  }
+  
